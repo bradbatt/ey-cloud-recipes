@@ -22,6 +22,10 @@
 #uncomment to turn on memcached
 include_recipe "memcached"
 
+#BJB 2013-09-06 -- Add memcached extension to work with laravel
+include_recipe "pecl_memcached"
+
+
 #uncomment ot run the riak recipe
 # include_recipe "riak"
 
